@@ -5,9 +5,11 @@ import Footer from "../components/Footer"
 
 export default function Layout(){
     return(
-        <div>
+        <div className="d-flex flex-column min-vh-100">
             <Navbare/>
-            <Outlet/>
+            <main className="flex-fill">
+                <Outlet/>
+            </main>
             <Footer/>
         </div> 
     )
