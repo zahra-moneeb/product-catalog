@@ -9,17 +9,17 @@ export default function Home(){
         <div className=" container ">
             <div className="row align-items-center">
                 <div className='col-md-6 ps-md-5 mt-1 order-2 order-md-1  text-overlay d-inline'>
-                    <h1 className='fw-bold'>Welcome to Our Website</h1>
+                    <h1 className='fw-bold mb-4' >Discover Timeless Elegance</h1>
                     <p className='fw-light'>
-                        This is a simple home page built with React and Bootstrap.
-                        The text is on the left and the image is on the right.
+                       At zamLUX, we create elegant jewelry that combines sophistication, quality, and timeless beauty. 
+                       Each piece enhances your style and makes every moment unforgettable
                       
                     </p>
                     <button 
-                     className="btn btn-primary"
-                     onClick= {() => Navigate("/about")}>
+                     className="btn fw-bold btn-primary"
+                     onClick= {() => Navigate("/products")}>
                     
-                        Learn More
+                        View Our Collection
                     </button>
                 </div>
 

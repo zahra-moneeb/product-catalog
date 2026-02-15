@@ -23,12 +23,10 @@ export default function About() {
                             zamLUX is a refined jewelry brand focused on timeless elegance and modern 
                             luxury. We create and curate high-quality jewelry designed to complement both
                             everyday style and special occasions.
-                            At zamLUX, we believe jewelry is a reflection of personal identity and 
-                            confidence. Our collections are crafted with attention to detail, quality 
-                            materials, and enduring design.
+                           
                         </p>
 
-                         <Link to="/products" className="btn btn-sm btn-primary">See Product</Link>
+                         <Link to="/products" className="btn fw-bold btn-primary">See Product</Link>
                     </div>
    
                     </div>

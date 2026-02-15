@@ -28,12 +28,12 @@ export default function ProductDetails() {
                 <p className="text-muted">Category: {prod.category}</p>
             <p className="fw-bold">{prod.price}</p>
             <div className="d-flex gap-2 flex-wrap">
-                   <button className="btn btn-primary"
+                   <button className="btn fw-bold btn-primary"
                     onClick={()=> navigate(-1)}
                     >Back to Product
                 </button>
 
-                <button className="btn btn-primary ml-0 " onClick={()=> navigate('/')}>buy</button>
+                <button className="btn fw-bold btn-primary ml-0 " onClick={()=> navigate('/')}>buy</button>
 
             </div>
                 

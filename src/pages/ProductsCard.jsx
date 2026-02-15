@@ -10,8 +10,8 @@ export default function ProductsCard({product}){
          <img src={product.image} className="card-img-top" alt="img" />
          <div className="card-body">
             <h6 className="card-title fs-bold">{product.name}</h6>
-             <div className="card-text fw-bold">{product.price}</div>
-             <Link to={`/products/${product.id}`} className="btn btn-sm btn-outline-primary">view details</Link>
+             <h6 className="fw-bold">{product.price}</h6>
+             <Link to={`/products/${product.id}`} className="btn fw-bold btn-outline-primary">view details</Link>
             
      </div>
   </div>
